@@ -1,2 +1,46 @@
 :root {
+  --main: #f7c374;
+  --main-light: #f6dcb5;
+  --main-dark: #442f11;
+
+  --white: #f8f8f8;
+  --black: #141414;
+  --gray0: #444444;
+  --gray1: #666666;
+  --gray2: #999999;
+  --gray3: #cccccc;
+
+  --error-color: #da2c2c;
+  --validation-color: #389542;
+
+  --title: "Pacifico", cursive;
+  --text: "Comfortaa", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--black);
+  font-family: var(--text);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  gap: 1rem;
+}
+
+.avatar {
+  scroll-snap-align: center;
+  background-color: transparent;
+  border: 4px solid transparent;
 }
