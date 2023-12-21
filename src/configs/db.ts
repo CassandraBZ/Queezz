@@ -1,8 +1,7 @@
-import faunadb from "faunadb";
+import { Client, query } from "faunadb";
 
-const client = new faunadb.Client({
+const client = new Client({
   secret: import.meta.env.VITE_FAUNA_KEY,
 });
-const q = faunadb.query;
 
-export { client, q };
+export { client, query as q };

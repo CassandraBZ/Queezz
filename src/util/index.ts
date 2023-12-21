@@ -1,3 +1,3 @@
-import randomizeString from "./randomize-string.util";
+import randomizeString from "./randomize-string";
 
 export { randomizeString };
