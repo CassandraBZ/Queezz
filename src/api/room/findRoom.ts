@@ -1,5 +1,5 @@
-import { client, q } from "../../configs/db";
-import { RoomDocument } from '../../models';
+import { client, q } from "@/configs/db";
+import { RoomDocument } from '@/models';
 
 const findRoom = async (link: string) =>
   await client
