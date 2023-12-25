@@ -1,5 +1,5 @@
 import { Now, TimeAdd } from "faunadb";
-import { client, q } from "../../configs/db";
+import { client, q } from "@/configs/db";
 
 const ROOM_TIME = Number(import.meta.env.VITE_ROOM_TIME);
 
