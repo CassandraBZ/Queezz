@@ -1,6 +1,8 @@
-import { FaunaDocument } from './fauna-document';
+import { FaunaDocument } from "./fauna-document";
 
 export type RoomDocument = FaunaDocument<{
-  link: string,
+  link: string;
+  creator: string;
+  players: string[];
   // ...
 }>;
